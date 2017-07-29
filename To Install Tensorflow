@@ -1,0 +1,11 @@
+You may would like to install Tensorflow(CPU) on your own PC, just do following things will be okay:
+
+1.Anaconda3-4.4.0(Once you install Anaconda, you don't have to install Python)
+After installed Anaconda3,you should have a try if it is be done:
+Type 'python' in cmd, and then type 'import numpy','import matplotlib' respectively.
+If not work, please remember to add to 'path'.
+
+2.Tensorflow
+Add 'pip' to 'path' firstly.
+And after that type 'python -m pip install--upgrade --ignore-installed tensorflow' in cmd.
+After all of this, just have a try by typing 'import tensorflow' in 'python' of cmd.

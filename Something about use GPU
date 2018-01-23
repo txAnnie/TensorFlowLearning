@@ -1,0 +1,13 @@
+if using tf.Session()
+then,use
+  sess=tf.Session(config=tf.ConfigProto(gpu_options=tf.GPUOptions(visible_device_list='3',allow_growth=True)))
+to assign GPU
+if using 
+  sess=sv.managed_session(config=tf.ConfigProto(gpu_options=tf.GPUOptions(visible_device_list='3',allow_growth=True)))
+to assign GPU
+
+In one word, no matter which method you are using to define sess, just put the GPU option to the config.
+
+ps:
+Please look up in the 'Official document' 
+  https://www.tensorflow.org/api_docs/python/
